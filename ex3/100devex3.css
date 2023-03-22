@@ -1,0 +1,22 @@
+body{
+  background-color:rgb(125 186 224);
+  border: 5px solid green;
+  color: white;
+}
+section {
+  font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Roboto', sans-serif;
+  display: block;
+
+}
+nav a{
+  color: green;
+ 
+}
+footer ul{
+  color: green;
+  text-decoration: none;
+}
+.pp{
+  margin: 500px;
+}
