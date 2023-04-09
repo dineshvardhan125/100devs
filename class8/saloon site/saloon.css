@@ -1,0 +1,132 @@
+body{
+  margin: 0%;
+}
+header{
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul{
+  flex-basis: 50%;
+  list-style: none;
+}
+header span:first-child{
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+}
+a,ul+span{
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: center;
+}
+/* division1 */
+.div1{
+  height: 700px;
+  background-image: url(images/combs-scissors-copy-space.jpg);
+  background-size: cover;
+  margin: 0%;
+}
+.div1 h1{
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Noto Serif Khojki', serif;
+  color: black;
+}
+.div1 section{
+  padding-top: 100px;
+  padding-left: 100px;
+  
+}
+.div1 h1+p{
+  color:black;
+  margin-bottom: 30px;
+}
+.div1 p+span{
+  background-color: black;
+  color:white;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.div1 section+section{
+  background-color: black;
+  width: 150px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 50px;
+  padding: 20px;
+}
+.div1 button{
+  padding: 5px 10px;
+  background-color: white;
+}
+.div2{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 400px;
+  align-items: center;
+  background-color:white;	
+}
+.div2 i{
+  font-size: 50px;
+}
+.div2 p{
+  font-size: 13px;
+}
+.div3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(252, 250, 251);
+  height: 500px;
+}
+.div3 section h2{
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.div3 p{
+  font-size: 20px;
+}
+.div3 button{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+img{
+  height: 350px;
+}
+@media only screen and (max-width: 800px){
+  .div3{
+    display: block;
+    text-align: center;
+    height: 700px;
+  }
+img{
+  margin-top: 20px;
+  height: 50%;
+  width: 50%;
+}
+.po{
+  display: none;
+}
+header ul{
+  justify-content: end;
+}
+header ul li{
+  margin-left: 30px;
+}
+.div1 .tinku{
+  padding: 50px;
+
+}
+.div1 section+section{
+ margin: 50px;
+}
+
+  }
